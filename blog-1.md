@@ -1,6 +1,7 @@
 # The Significance of Union and Intersection Types in TypeScript
 
-In TypeScript, handling different types can sometimes be really challenging and tricky, but TypeScript offers two very helpful tools for this: **Union Types** and **Intersection Types**. These tools let us work with multiple types together, creating functions or variables that can handle more than one type of data. In this blog, we’ll look at each type with simple examples.
+In TypeScript, handling different types can sometimes be really challenging and tricky, but TypeScript offers two very helpful tools for this: **Union Types** and **Intersection Types**. 
+These tools let us work with multiple types together, creating functions or variables that can handle more than one type of data. In this blog, we’ll look at each type with simple examples.
 
 ---
 
@@ -19,8 +20,6 @@ function showMessage(message: string | number): void {
   console.log(`Message: ${message}`);
 }
 
-showMessage("Hello, TypeScript!"); // Works with string
-showMessage(2024); // Also works with number
 ```
 
 ## 2. Intersection Types
